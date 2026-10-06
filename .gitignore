@@ -1,0 +1,26 @@
+# ===== 密钥与本地配置（绝不入库）=====
+.env
+feishu.env
+user_token.json
+*.new_miniflux_pw
+
+# ===== 数据与备份 =====
+*.tar.gz
+migrate/
+migrate;*/
+.sched_state.json
+.report_state.json
+
+# ===== 测试输出 =====
+*.xml
+
+# ===== Python =====
+__pycache__/
+*.pyc
+.venv/
+
+# ===== 一次性/私有脚本与数据样本 =====
+patch_*.py
+ping_report.py
+setup_dm.py
+feed-*.json
